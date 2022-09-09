@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="header">
+  <div class="container">
+    <div class="navbar">
+      <h1>Logo</h1>
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">gallery</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </div>
+    <div class="title">
+      <h1>S.</h1>
+      <p>Brand Engineering + Design<br>from New York</p>
+    </div>
+  </div>
+</div>
+
+<div class="about">
+  <div class="container">
+    <div class="about-flex">
+
+      <div class="about-left">
+        <h2>About</h2>
+      </div><!-- /about-left -->
+
+      <div class="about-right">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique debitis sapiente aliquam cumque natus id eaque facilis molestias commodi enim tempora molestiae autem voluptatem mollitia ut, iusto. Natus, deserunt, esse.</p>
+
+        <div class="about-flex">
+          <div class="about-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+          >
+            <img src="images/profile.jpg" alt="">
+            <h3>Calvin Tan</h3>
+            <h4>Web Developer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi deserunt ratione commodi, hic, rem esse suscipit nam.</p>
+            <div class="about-icons">
+              <img src="images/icon-facebook.png">
+              <img src="images/icon-twitter.png">
+              <img src="images/icon-github.png">
+            </div>
+          </div>
+
+          <div class="about-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+            data-aos-delay="500"
+          >
+            <img src="images/profile.jpg" alt="">
+            <h3>Calvin Tan</h3>
+            <h4>Web Developer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi deserunt ratione commodi, hic, rem esse suscipit nam.</p>
+            <div class="about-icons">
+              <img src="images/icon-facebook.png">
+              <img src="images/icon-twitter.png">
+              <img src="images/icon-github.png">
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /about-right -->
+    </div><!-- /the flexbox -->
+
+    <div class="about-stats">
+      <div class="about-flex">
+        <div class="about-numbers"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-delay="0"
+        >
+          <h3>Title of stat</h3>
+          <p>2200+</p>
+        </div>
+        <div class="about-numbers"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-delay="300"
+        >
+          <h3>Title of stat</h3>
+          <p>2200+</p>
+        </div>
+        <div class="about-numbers"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-delay="600"
+        >
+          <h3>Title of stat</h3>
+          <p>2200+</p>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /container -->
+</div><!-- /about section -->
+
+<section class="gallery">
+  <div class="container">
+    <div class="filter">
+      <button data-filter="*">Show All</button>
+      <button data-filter=".dog">Dog</button>
+      <button data-filter=".others">Others</button>
+    </div>
+    <div class="grid">
+      <div class="gallery-item others">
+        <img src="images/animal-1.jpg" alt="">
+      </div>
+      <div class="gallery-item others">
+        <img src="images/animal-2.jpg" alt="">
+      </div>
+      <div class="gallery-item dog">
+        <img src="images/animal-3.jpg" alt="">
+      </div>
+      <div class="gallery-item others">
+        <img src="images/animal-4.jpg" alt="">
+      </div>
+      <div class="gallery-item dog">
+        <img src="images/animal-5.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section><!-- /gallery -->
+
+<div class="contact">
+  <div class="contact-bot">
+    <div class="container">
+      <div class="contact-flex">
+        <div class="contact-form">
+
+          <div class="contact-input">
+            <label for="first-name">
+              First Name
+            </label>
+            <input id="first-name" name="first-name" type="text" placeholder="First Name">
+          </div>
+
+          <div class="contact-input">
+            <label for="last-name">
+              Last Name
+            </label>
+            <input id="last-name" name="last-name" type="text">
+          </div>
+
+          <div class="contact-input">
+            <label for="email">
+              E-mail Address
+            </label>
+            <input id="email" name="email" type="email">
+          </div>
+
+          <div class="contact-input">
+            <label for="budget">Your budget</label>
+            <select name="budget" id="budget">
+              <option value="5000">5000</option>
+              <option value="10000">10000</option>
+              <option value="20000">20000</option>
+            </select>
+          </div>
+
+          <div class="contact-input full-width">
+            <label for="">Message</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="contact-input full-width">
+            <input type="submit" value="Submit">
+          </div>
+
+        </div>
+      </div>
+    </div><!-- /container -->
+  </div><!-- /contact-bot -->
+</div><!-- /contact section -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js
+"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+var $grid = $('.grid').isotope({
+
+});
+
+// filter items on button click
+$('.filter').on( 'click', 'button', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
+
+// Scroll-animation library
+AOS.init();
+
+</script>
+
+</body>
+</html>
